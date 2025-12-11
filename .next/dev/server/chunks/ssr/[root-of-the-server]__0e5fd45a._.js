@@ -152,8 +152,8 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$c
 ;
 ;
 const metadata = {
-    title: "Cliste - AI Automation for Enterprise",
-    description: "Transform your business with intelligent AI automation solutions. Empower your organization to operate at the speed of thought.",
+    title: "WebOps Agency — Website tối ưu chuyển đổi, nội dung chuẩn SEO.",
+    description: "WebOps Agency giúp doanh nghiệp xây dựng website hiệu quả, chuẩn SEO, tối ưu chuyển đổi và tự động hóa vận hành — để website thật sự trở thành kênh bán hàng 24/7.",
     generator: "v0.app"
 };
 function RootLayout({ children }) {

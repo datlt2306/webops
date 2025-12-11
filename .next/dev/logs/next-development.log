@@ -9184,3 +9184,16 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [02:13:15.870] Browser LOG     [v0] Scroll event - currentScrollY: 49 lastScrollY: 64
 [02:13:15.870] Browser LOG     [v0] Showing navbar - near top
 [02:13:39.857] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"button.group.inline-flex.items-center.gap-3.px-8.py-4.md:px-12.md:py-6.bg-gradient-to-r.from-white.to-blue-100.text-blue-900.rounded-full.font-semibold.text-base.md:text-lg.hover:from-blue-50.hover:to-white.transition-all.duration-300.hover:scale-105.shadow-2xl","eventType":"pointerdown"},"href":"http://localhost:3000/","id":"v3-1765445562660-8381376239698","route":"/","type":"INP","value":88},{"attribution":{"eventTarget":"p.text-lg.text-white/70.mb-8.max-w-2xl.mx-auto.leading-relaxed"},"href":"http://localhost:3000/","id":"v3-1765445562660-2655129594798","route":"/","type":"CLS","value":0.0189}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[02:24:37.024] Server  LOG      ✓ Compiled in 8ms
+[02:24:37.550] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:24:37.550] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[02:24:37.550] Browser LOG     [v0] Scroll listener removed
+[02:24:37.909] Server  LOG      ✓ Compiled in 0ms
+[02:24:37.911] Browser LOG     [v0] NavigationTransition mounted for path: /
+[02:24:37.911] Browser LOG     [v0] Scroll listener added
+[02:24:37.911] Browser LOG     [v0] Page changed to: /
+[02:24:38.073] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:24:38.861] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:25:16.904] Browser LOG     [v0] NavigationTransition mounted for path: /
+[02:25:16.904] Browser LOG     [v0] Scroll listener added
+[02:25:16.905] Browser LOG     [v0] Page changed to: /
