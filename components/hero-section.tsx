@@ -19,7 +19,7 @@ export function HeroSection() {
                     <span className="inline-flex items-center justify-center gap-2">
                         <span className="text-blue-200">tăng trưởng</span>
                         <RotatingText
-                            texts={["chuẩn SEO", "tối ưu", "bền vững"]}
+                            texts={["chuẩn SEO", "bền vững"]}
                             mainClassName="px-2 sm:px-2 md:px-3 bg-white text-blue-900 overflow-hidden py-1 sm:py-1 md:py-2 justify-center rounded-lg shadow-lg"
                             staggerFrom={"last"}
                             initial={{ y: "100%" }}
