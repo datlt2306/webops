@@ -13,6 +13,7 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
+      --tw-scroll-snap-strictness: proximity;
       --tw-space-y-reverse: 0;
       --tw-space-x-reverse: 0;
       --tw-divide-x-reverse: 0;
@@ -1750,6 +1751,18 @@
     resize: both;
   }
 
+  .snap-x {
+    scroll-snap-type: x var(--tw-scroll-snap-strictness);
+  }
+
+  .snap-mandatory {
+    --tw-scroll-snap-strictness: mandatory;
+  }
+
+  .snap-start {
+    scroll-snap-align: start;
+  }
+
   .scroll-my-1 {
     scroll-margin-block: calc(var(--spacing) * 1);
   }
@@ -2177,6 +2190,26 @@
     border-color: var(--color-border);
   }
 
+  .border-blue-300\/60 {
+    border-color: #90c5ff99;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-blue-300\/60 {
+      border-color: color-mix(in oklab, var(--color-blue-300) 60%, transparent);
+    }
+  }
+
+  .border-blue-300\/70 {
+    border-color: #90c5ffb3;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-blue-300\/70 {
+      border-color: color-mix(in oklab, var(--color-blue-300) 70%, transparent);
+    }
+  }
+
   .border-blue-400\/30 {
     border-color: #54a2ff4d;
   }
@@ -2368,6 +2401,16 @@
   @supports (color: color-mix(in lab, red, red)) {
     .border-white\/10 {
       border-color: color-mix(in oklab, var(--color-white) 10%, transparent);
+    }
+  }
+
+  .border-white\/15 {
+    border-color: #ffffff26;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-white\/15 {
+      border-color: color-mix(in oklab, var(--color-white) 15%, transparent);
     }
   }
 
@@ -2826,6 +2869,11 @@
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
 
+  .bg-gradient-to-l {
+    --tw-gradient-position: to left in oklab;
+    background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+
   .bg-gradient-to-r {
     --tw-gradient-position: to right in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
@@ -2849,6 +2897,11 @@
   .bg-\[radial-gradient\(35\%_128px_at_50\%_0\%\,theme\(backgroundColor\.white\/15\%\)\,theme\(backgroundColor\.white\/5\%\)\)\] {
     background-image: radial-gradient(35% 128px at 50% 0, #ffffff26, #ffffff0d);
     background-image: radial-gradient(35% 128px at 50% 0, lab(100% -.0000298023 .0000119209 / .15), lab(100% -.0000298023 .0000119209 / .05));
+  }
+
+  .from-\[\#0B1221\] {
+    --tw-gradient-from: #0b1221;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
   .from-\[\#00B2FF\] {
@@ -4102,6 +4155,11 @@
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
 
+  .shadow-\[0_10px_35px_rgba\(59\,130\,246\,0\.35\)\] {
+    --tw-shadow: 0 10px 35px var(--tw-shadow-color, #3b82f659);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+
   .shadow-\[0_20px_80px_-20px_rgba\(0\,0\,0\,0\.3\)\] {
     --tw-shadow: 0 20px 80px -20px var(--tw-shadow-color, #0000004d);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -4963,6 +5021,18 @@
   }
 
   @media (hover: hover) {
+    .hover\:border-blue-200\/40:hover {
+      border-color: #bedbff66;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:border-blue-200\/40:hover {
+        border-color: color-mix(in oklab, var(--color-blue-200) 40%, transparent);
+      }
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:border-blue-200\/50:hover {
       border-color: #bedbff80;
     }
@@ -5333,6 +5403,10 @@
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
 
+  .focus-visible\:ring-blue-400:focus-visible {
+    --tw-ring-color: var(--color-blue-400);
+  }
+
   .focus-visible\:ring-destructive\/20:focus-visible {
     --tw-ring-color: var(--destructive);
   }
@@ -5381,6 +5455,11 @@
 
   .focus-visible\:outline-ring:focus-visible {
     outline-color: var(--ring);
+  }
+
+  .focus-visible\:outline-none:focus-visible {
+    --tw-outline-style: none;
+    outline-style: none;
   }
 
   .active\:bg-sidebar-accent:active {
@@ -8734,6 +8813,12 @@
 @property --tw-skew-y {
   syntax: "*";
   inherits: false
+}
+
+@property --tw-scroll-snap-strictness {
+  syntax: "*";
+  inherits: false;
+  initial-value: proximity;
 }
 
 @property --tw-space-y-reverse {

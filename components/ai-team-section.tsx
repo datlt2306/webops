@@ -209,6 +209,9 @@ export function AITeamSection() {
     ];
 
     const [activeCategory, setActiveCategory] = useState(categories[0].key);
+    const handleSelectCategory = (key: string) => {
+        setActiveCategory(key);
+    };
 
     const filteredProjects = useMemo(
         () => projects.filter((project) => project.category === activeCategory),
@@ -246,22 +249,71 @@ export function AITeamSection() {
                         </p>
                     </div>
 
-                    <div className="flex justify-center mb-8">
-                        <div className="inline-flex rounded-full border border-white/20 bg-white/10 p-1 backdrop-blur">
-                            {categories.map((cat) => (
-                                <button
-                                    key={cat.key}
-                                    onClick={() => setActiveCategory(cat.key)}
-                                    className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full transition-all ${
-                                        activeCategory === cat.key
-                                            ? "bg-blue-500/20 text-white border border-white/30 shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
-                                            : "text-blue-100/80 hover:text-white"
-                                    }`}
-                                    aria-label={`Chọn ngành ${cat.label}`}
-                                >
-                                    {cat.label}
-                                </button>
-                            ))}
+                    <div className="mb-8">
+                        <div className="relative sm:hidden">
+                            <div className="pointer-events-none absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-[#0B1221] to-transparent" />
+                            <div className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-[#0B1221] to-transparent" />
+                            <div
+                                className="flex gap-3 overflow-x-auto snap-x snap-mandatory px-1 pb-3"
+                                style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+                                aria-label="Chọn ngành dự án"
+                                role="tablist"
+                            >
+                                {categories.map((cat) => {
+                                    const Icon = cat.icon;
+                                    const isActive = activeCategory === cat.key;
+                                    return (
+                                        <button
+                                            key={cat.key}
+                                            onClick={() => handleSelectCategory(cat.key)}
+                                            className={`flex shrink-0 snap-start items-center gap-3 rounded-2xl border px-4 py-3 text-left transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 ${
+                                                isActive
+                                                    ? "border-blue-300/60 bg-blue-500/15 text-white shadow-[0_10px_35px_rgba(59,130,246,0.35)]"
+                                                    : "border-white/10 bg-white/5 text-blue-100/90 hover:border-blue-200/40"
+                                            }`}
+                                            tabIndex={0}
+                                            aria-label={`Chọn ngành ${cat.label}`}
+                                            aria-selected={isActive}
+                                            role="tab"
+                                        >
+                                            <span
+                                                className={`flex h-10 w-10 items-center justify-center rounded-xl border transition ${
+                                                    isActive
+                                                        ? "border-blue-300/70 bg-blue-500/20"
+                                                        : "border-white/15 bg-white/5"
+                                                }`}
+                                            >
+                                                <Icon className="h-5 w-5" />
+                                            </span>
+                                            <span className="text-sm font-semibold leading-tight">
+                                                {cat.label}
+                                            </span>
+                                        </button>
+                                    );
+                                })}
+                            </div>
+                        </div>
+
+                        <div className="hidden justify-center sm:flex">
+                            <div className="inline-flex rounded-full border border-white/20 bg-white/10 p-1 backdrop-blur">
+                                {categories.map((cat) => (
+                                    <button
+                                        key={cat.key}
+                                        onClick={() => handleSelectCategory(cat.key)}
+                                        className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full transition-all ${
+                                            activeCategory === cat.key
+                                                ? "bg-blue-500/20 text-white border border-white/30 shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
+                                                : "text-blue-100/80 hover:text-white"
+                                        }`}
+                                        aria-label={`Chọn ngành ${cat.label}`}
+                                        tabIndex={0}
+                                        role="tab"
+                                        aria-selected={activeCategory === cat.key}
+                                    >
+                                        {cat.label}
+                                    </button>
+                                ))}
+                            </div>
                         </div>
                     </div>
 
