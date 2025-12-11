@@ -213,7 +213,7 @@ export function GlassmorphismNav() {
                 <div className="md:hidden relative">
                     {/* Backdrop overlay */}
                     <div
-                        className={`fixed inset-0 bg-black/20 backdrop-blur-sm transition-all duration-300 ${
+                        className={`fixed inset-0 transition-all duration-300 ${
                             isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
                         }`}
                         onClick={() => setIsOpen(false)}
