@@ -123,14 +123,14 @@ export const FAQSection = () => {
                                         <ShieldCheck className="h-4 w-4" aria-hidden="true" />
                                         Bảo trì chủ động
                                     </div>
-                                    <p>Cảnh báo sớm, backup và bảo mật định kỳ.</p>
+                                    <p>Cảnh báo sớm, backup định kỳ.</p>
                                 </div>
                                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
                                     <div className="flex items-center gap-2 text-white font-semibold mb-1">
                                         <PenLine className="h-4 w-4" aria-hidden="true" />
                                         Content có chiến lược
                                     </div>
-                                    <p>SEO on-page, CTA rõ, tone giọng nhất quán.</p>
+                                    <p>SEO on-page, CTA rõ ràng.</p>
                                 </div>
                                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
                                     <div className="flex items-center gap-2 text-white font-semibold mb-1">
