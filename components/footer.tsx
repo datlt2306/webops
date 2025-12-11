@@ -70,7 +70,7 @@ export function Footer() {
                         className="size-16"
                     />
                     <div className="text-muted-foreground mt-8 text-sm md:mt-0 md:block hidden">
-                        <p>© {new Date().getFullYear()} Cliste. All rights reserved.</p>
+                        <p>© {new Date().getFullYear()} Webops Agency. All rights reserved.</p>
                     </div>
                 </AnimatedContainer>
 
@@ -100,14 +100,14 @@ export function Footer() {
 
             <div className="md:hidden mt-8 text-center space-y-2">
                 <p className="text-muted-foreground text-sm">
-                    © {new Date().getFullYear()} Cliste. All rights reserved.
+                    © {new Date().getFullYear()} Webops Agency. All rights reserved.
                 </p>
-                <p className="text-muted-foreground text-xs">Web Development by Humexa</p>
+                <p className="text-muted-foreground text-xs">Web Development by Datlt2306</p>
             </div>
 
             <div className="hidden md:block mt-8 pt-6 border-t border-foreground/10 w-full">
                 <p className="text-muted-foreground text-xs text-center">
-                    Phát triển bởi Cliste Web Team
+                    Phát triển bởi Webops Agency Team
                 </p>
             </div>
         </footer>

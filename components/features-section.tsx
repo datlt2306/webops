@@ -66,12 +66,12 @@ export function FeaturesSection() {
 
     return (
         <section id="services" ref={sectionRef} className="relative z-10">
-            <div className="bg-white rounded-t-[3rem] pt-16 sm:pt-24 pb-16 sm:pb-24 px-4 relative overflow-hidden">
-                <div className="absolute inset-0 opacity-[0.02]">
+            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-t-[3rem] pt-16 sm:pt-24 pb-16 sm:pb-24 px-4 relative overflow-hidden shadow-[0_20px_80px_rgba(0,0,0,0.35)]">
+                <div className="absolute inset-0 opacity-10">
                     <div
                         className="absolute inset-0"
                         style={{
-                            backgroundImage: `radial-gradient(circle at 1px 1px, rgb(0,0,0) 1px, transparent 0)`,
+                            backgroundImage: `radial-gradient(circle at 1px 1px, rgba(255,255,255,0.2) 1px, transparent 0)`,
                             backgroundSize: "24px 24px",
                         }}
                     ></div>
@@ -98,14 +98,14 @@ export function FeaturesSection() {
                             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                         }`}
                     >
-                        <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-sm font-medium border border-blue-100 mb-6">
+                        <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 text-blue-100 text-sm font-medium border border-white/20 mb-6 backdrop-blur">
                             Dịch vụ
                         </div>
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 text-balance mb-4 sm:mb-6">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-balance mb-4 sm:mb-6">
                             Trọn bộ dịch vụ giúp website{" "}
-                            <span className="text-blue-700">hoạt động hiệu quả</span>
+                            <span className="text-blue-200">hoạt động hiệu quả</span>
                         </h2>
-                        <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
+                        <p className="text-base sm:text-lg md:text-xl text-blue-100 max-w-3xl mx-auto font-light leading-relaxed">
                             Thiết kế, SEO, nội dung và tự động hóa — tất cả phối hợp để website hoạt
                             động hiệu quả.
                         </p>
@@ -119,18 +119,18 @@ export function FeaturesSection() {
                         {services.map((service, index) => (
                             <div
                                 key={service.title}
-                                className="group bg-white rounded-2xl p-6 sm:p-8 h-full shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-200 hover:border-blue-200"
+                                className="group bg-white/5 backdrop-blur-md rounded-2xl p-6 sm:p-8 h-full border border-white/10 hover:border-blue-200/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.35)]"
                                 style={{
                                     transitionDelay: isVisible ? `${200 + index * 80}ms` : "0ms",
                                 }}
                             >
-                                <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-700 flex items-center justify-center mb-5">
-                                    <service.icon className="w-6 h-6" />
+                                <div className="w-12 h-12 rounded-2xl bg-blue-500/15 text-blue-100 flex items-center justify-center mb-5">
+                                    <service.icon className="w-6 h-6" aria-hidden="true" />
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-3 group-hover:text-blue-700 transition-colors">
+                                <h3 className="text-xl sm:text-2xl font-semibold text-white mb-3 group-hover:text-blue-200 transition-colors">
                                     {service.title}
                                 </h3>
-                                <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+                                <p className="text-blue-100/90 text-sm sm:text-base leading-relaxed">
                                     {service.desc}
                                 </p>
                             </div>

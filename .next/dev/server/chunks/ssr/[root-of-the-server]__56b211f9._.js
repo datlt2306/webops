@@ -818,82 +818,82 @@ function HomePage() {
                     }, void 0, false, {
                         fileName: "[project]/cliste-website-navigation/app/page.tsx",
                         lineNumber: 18,
-                        columnNumber: 11
+                        columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/cliste-website-navigation/app/page.tsx",
                     lineNumber: 17,
-                    columnNumber: 9
+                    columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "relative z-10",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$glassmorphism$2d$nav$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["GlassmorphismNav"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 21,
-                            columnNumber: 11
+                            lineNumber: 26,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$hero$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["HeroSection"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 22,
-                            columnNumber: 11
+                            lineNumber: 27,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$problem$2d$solution$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ProblemSolutionSection"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 23,
-                            columnNumber: 11
+                            lineNumber: 28,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$features$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FeaturesSection"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 24,
-                            columnNumber: 11
+                            lineNumber: 29,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$ai$2d$team$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AITeamSection"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 25,
-                            columnNumber: 11
+                            lineNumber: 30,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$news$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["NewsSection"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 26,
-                            columnNumber: 11
+                            lineNumber: 31,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$testimonials$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TestimonialsSection"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 27,
-                            columnNumber: 11
+                            lineNumber: 32,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$roi$2d$calculator$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ROICalculatorSection"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 28,
-                            columnNumber: 11
+                            lineNumber: 33,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$cta$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CTASection"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 29,
-                            columnNumber: 11
+                            lineNumber: 34,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                            lineNumber: 30,
-                            columnNumber: 11
+                            lineNumber: 35,
+                            columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/cliste-website-navigation/app/page.tsx",
-                    lineNumber: 20,
-                    columnNumber: 9
+                    lineNumber: 25,
+                    columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/cliste-website-navigation/app/page.tsx",
             lineNumber: 16,
-            columnNumber: 7
+            columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/cliste-website-navigation/app/page.tsx",
         lineNumber: 15,
-        columnNumber: 5
+        columnNumber: 9
     }, this);
 }
 }),
