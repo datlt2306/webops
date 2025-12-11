@@ -14,7 +14,7 @@ export function HeroSection() {
                     Agency thiết kế website · SEO
                 </div>
 
-                <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-balance mb-6 animate-fade-in-heading text-white md:leading-24">
+                <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-balance mb-6 animate-fade-in-heading text-white md:leading-24">
                     Website giúp doanh nghiệp của bạn{" "}
                     <span className="inline-flex items-center justify-center gap-2">
                         <span className="text-blue-200">tăng trưởng</span>
@@ -31,7 +31,7 @@ export function HeroSection() {
                             rotationInterval={2000}
                         />
                     </span>
-                </h1>
+                </h2>
 
                 <p className="text-base sm:text-xl md:text-2xl text-blue-100 text-balance max-w-3xl mx-auto mb-10 leading-relaxed px-4 sm:px-0 animate-fade-in-subheading font-light">
                     Thấu hiểu doanh nghiệp. Tối ưu giải pháp. Cùng bạn xây dựng nền tảng vận hành
