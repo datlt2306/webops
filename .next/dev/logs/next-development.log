@@ -9285,3 +9285,391 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:18:12.740] Browser LOG     [v0] Scroll event - currentScrollY: 140 lastScrollY: 64
 [04:18:12.740] Browser LOG     [v0] Hiding navbar - scrolling down
 [04:18:40.672] Server  LOG      ✓ Compiled in 79ms
+[04:18:46.543] Browser LOG     [v0] Scroll event - currentScrollY: 148 lastScrollY: 140
+[04:18:46.543] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:46.543] Browser LOG     [v0] Scroll event - currentScrollY: 194 lastScrollY: 148
+[04:18:46.543] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:46.543] Browser LOG     [v0] Scroll event - currentScrollY: 224 lastScrollY: 194
+[04:18:46.543] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:46.543] Browser LOG     [v0] Scroll event - currentScrollY: 308 lastScrollY: 224
+[04:18:46.543] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:46.543] Browser LOG     [v0] Scroll event - currentScrollY: 361 lastScrollY: 308
+[04:18:46.543] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:46.543] Browser LOG     [v0] Scroll event - currentScrollY: 436 lastScrollY: 361
+[04:18:46.543] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:46.543] Browser LOG     [v0] Scroll event - currentScrollY: 474 lastScrollY: 436
+[04:18:46.543] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:46.543] Browser LOG     [v0] Scroll event - currentScrollY: 550 lastScrollY: 474
+[04:18:46.543] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:46.861] Browser LOG     [v0] Scroll event - currentScrollY: 542 lastScrollY: 550
+[04:18:46.861] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:46.861] Browser LOG     [v0] Scroll event - currentScrollY: 451 lastScrollY: 542
+[04:18:46.861] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:46.861] Browser LOG     [v0] Scroll event - currentScrollY: 277 lastScrollY: 451
+[04:18:46.861] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:46.861] Browser LOG     [v0] Scroll event - currentScrollY: 20 lastScrollY: 277
+[04:18:46.861] Browser LOG     [v0] Showing navbar - near top
+[04:18:46.861] Browser LOG     [v0] Scroll event - currentScrollY: 0 lastScrollY: 20
+[04:18:46.861] Browser LOG     [v0] Showing navbar - near top
+[04:18:47.863] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:18:48.099] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:18:48.337] Browser LOG     [v0] NavigationTransition mounted for path: /
+[04:18:48.337] Browser LOG     [v0] Scroll listener added
+[04:18:48.337] Browser LOG     [v0] Page changed to: /
+[04:18:48.337] Browser WARN    Image with src "/images/logo-webops.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 11.5 lastScrollY: 0
+[04:18:55.625] Browser LOG     [v0] Showing navbar - near top
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 37.5 lastScrollY: 11.5
+[04:18:55.625] Browser LOG     [v0] Showing navbar - near top
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 71 lastScrollY: 37.5
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 91 lastScrollY: 71
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 111.5 lastScrollY: 91
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 131 lastScrollY: 111.5
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 144.5 lastScrollY: 131
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 164 lastScrollY: 144.5
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 174 lastScrollY: 164
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 188 lastScrollY: 174
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 201 lastScrollY: 188
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 213.5 lastScrollY: 201
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 225.5 lastScrollY: 213.5
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 236 lastScrollY: 225.5
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 246 lastScrollY: 236
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 255.5 lastScrollY: 246
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 264 lastScrollY: 255.5
+[04:18:55.625] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.625] Browser LOG     [v0] Scroll event - currentScrollY: 272 lastScrollY: 264
+[04:18:55.626] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 279 lastScrollY: 272
+[04:18:55.626] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 285.5 lastScrollY: 279
+[04:18:55.626] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 291.5 lastScrollY: 285.5
+[04:18:55.626] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 297 lastScrollY: 291.5
+[04:18:55.626] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 302 lastScrollY: 297
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 306.5 lastScrollY: 302
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 310.5 lastScrollY: 306.5
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 314.5 lastScrollY: 310.5
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 317.5 lastScrollY: 314.5
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 320.5 lastScrollY: 317.5
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 323 lastScrollY: 320.5
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 325 lastScrollY: 323
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 327 lastScrollY: 325
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 329 lastScrollY: 327
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 330 lastScrollY: 329
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 331.5 lastScrollY: 330
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 332 lastScrollY: 331.5
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 333 lastScrollY: 332
+[04:18:55.626] Browser LOG     [v0] Scroll event - currentScrollY: 333.5 lastScrollY: 333
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 337.5 lastScrollY: 333.5
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 347.5 lastScrollY: 337.5
+[04:18:56.226] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 356 lastScrollY: 347.5
+[04:18:56.226] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 364 lastScrollY: 356
+[04:18:56.226] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 374 lastScrollY: 364
+[04:18:56.226] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 382.5 lastScrollY: 374
+[04:18:56.226] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 408 lastScrollY: 382.5
+[04:18:56.226] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 423 lastScrollY: 408
+[04:18:56.226] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 430 lastScrollY: 423
+[04:18:56.226] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 437.5 lastScrollY: 430
+[04:18:56.226] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 441 lastScrollY: 437.5
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 444 lastScrollY: 441
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 447 lastScrollY: 444
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 447.5 lastScrollY: 447
+[04:18:56.226] Browser LOG     [v0] Scroll event - currentScrollY: 449 lastScrollY: 447.5
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 448.5 lastScrollY: 449
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 439 lastScrollY: 448.5
+[04:18:56.826] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 419 lastScrollY: 439
+[04:18:56.826] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 394.5 lastScrollY: 419
+[04:18:56.826] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 377.5 lastScrollY: 394.5
+[04:18:56.826] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 344.5 lastScrollY: 377.5
+[04:18:56.826] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 309 lastScrollY: 344.5
+[04:18:56.826] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 296.5 lastScrollY: 309
+[04:18:56.826] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 290 lastScrollY: 296.5
+[04:18:56.826] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:56.826] Browser LOG     [v0] Scroll event - currentScrollY: 289 lastScrollY: 290
+[04:18:56.827] Browser LOG     [v0] Scroll event - currentScrollY: 287.5 lastScrollY: 289
+[04:18:56.827] Browser LOG     [v0] Scroll event - currentScrollY: 286.5 lastScrollY: 287.5
+[04:18:56.827] Browser LOG     [v0] Scroll event - currentScrollY: 285.5 lastScrollY: 286.5
+[04:18:56.827] Browser LOG     [v0] Scroll event - currentScrollY: 285 lastScrollY: 285.5
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 283.5 lastScrollY: 285
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 275 lastScrollY: 283.5
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 259.5 lastScrollY: 275
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 242 lastScrollY: 259.5
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 232.5 lastScrollY: 242
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 213 lastScrollY: 232.5
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 198 lastScrollY: 213
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 182 lastScrollY: 198
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 164.5 lastScrollY: 182
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 139 lastScrollY: 164.5
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 121.5 lastScrollY: 139
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 109 lastScrollY: 121.5
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 97 lastScrollY: 109
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 92.5 lastScrollY: 97
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 91 lastScrollY: 92.5
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 84 lastScrollY: 91
+[04:18:57.327] Browser LOG     [v0] Showing navbar - scrolling up
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 83 lastScrollY: 84
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 84.5 lastScrollY: 83
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 85 lastScrollY: 84.5
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 85.5 lastScrollY: 85
+[04:18:57.327] Browser LOG     [v0] Scroll event - currentScrollY: 86 lastScrollY: 85.5
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 90 lastScrollY: 86
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 97 lastScrollY: 90
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 111 lastScrollY: 97
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 131 lastScrollY: 111
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 156.5 lastScrollY: 131
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 180 lastScrollY: 156.5
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 211 lastScrollY: 180
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 226.5 lastScrollY: 211
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 244 lastScrollY: 226.5
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 258 lastScrollY: 244
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 267 lastScrollY: 258
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 283.5 lastScrollY: 267
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 298.5 lastScrollY: 283.5
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 312.5 lastScrollY: 298.5
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 325.5 lastScrollY: 312.5
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 337 lastScrollY: 325.5
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 348 lastScrollY: 337
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 359 lastScrollY: 348
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 368.5 lastScrollY: 359
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 377.5 lastScrollY: 368.5
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 385.5 lastScrollY: 377.5
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 393 lastScrollY: 385.5
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 399.5 lastScrollY: 393
+[04:19:01.359] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 393 lastScrollY: 399.5
+[04:19:01.359] Browser LOG     [v0] Showing navbar - scrolling up
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 353 lastScrollY: 393
+[04:19:01.359] Browser LOG     [v0] Showing navbar - scrolling up
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 288.5 lastScrollY: 353
+[04:19:01.359] Browser LOG     [v0] Showing navbar - scrolling up
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 169 lastScrollY: 288.5
+[04:19:01.359] Browser LOG     [v0] Showing navbar - scrolling up
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 49 lastScrollY: 169
+[04:19:01.359] Browser LOG     [v0] Showing navbar - near top
+[04:19:01.359] Browser LOG     [v0] Scroll event - currentScrollY: 0 lastScrollY: 49
+[04:19:01.359] Browser LOG     [v0] Showing navbar - near top
+[04:19:24.807] Browser WARN    Image with src "/images/logo-webops.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:19:24.807] Browser LOG     [v0] NavigationTransition mounted for path: /
+[04:19:24.807] Browser LOG     [v0] Scroll listener added
+[04:19:24.807] Browser LOG     [v0] Page changed to: /
+[04:19:24.807] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:20:10.632] Browser LOG     [v0] Scroll event - currentScrollY: 3 lastScrollY: 0
+[04:20:10.632] Browser LOG     [v0] Showing navbar - near top
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 7 lastScrollY: 3
+[04:20:10.633] Browser LOG     [v0] Showing navbar - near top
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 18 lastScrollY: 7
+[04:20:10.633] Browser LOG     [v0] Showing navbar - near top
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 25 lastScrollY: 18
+[04:20:10.633] Browser LOG     [v0] Showing navbar - near top
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 35 lastScrollY: 25
+[04:20:10.633] Browser LOG     [v0] Showing navbar - near top
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 64 lastScrollY: 35
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 87 lastScrollY: 64
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 110 lastScrollY: 87
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 125 lastScrollY: 110
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 140 lastScrollY: 125
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 155 lastScrollY: 140
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 178 lastScrollY: 155
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 193 lastScrollY: 178
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 208 lastScrollY: 193
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:10.633] Browser LOG     [v0] Scroll event - currentScrollY: 231 lastScrollY: 208
+[04:20:10.633] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:11.114] Browser LOG     [v0] Scroll event - currentScrollY: 233 lastScrollY: 231
+[04:20:11.115] Browser LOG     [v0] Scroll event - currentScrollY: 235 lastScrollY: 233
+[04:20:11.115] Browser LOG     [v0] Scroll event - currentScrollY: 249 lastScrollY: 235
+[04:20:11.115] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:11.115] Browser LOG     [v0] Scroll event - currentScrollY: 287 lastScrollY: 249
+[04:20:11.115] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:11.115] Browser LOG     [v0] Scroll event - currentScrollY: 310 lastScrollY: 287
+[04:20:11.115] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:11.115] Browser LOG     [v0] Scroll event - currentScrollY: 400 lastScrollY: 310
+[04:20:11.115] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:11.115] Browser LOG     [v0] Scroll event - currentScrollY: 416 lastScrollY: 400
+[04:20:11.115] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:11.115] Browser LOG     [v0] Scroll event - currentScrollY: 431 lastScrollY: 416
+[04:20:11.115] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:11.115] Browser LOG     [v0] Scroll event - currentScrollY: 453 lastScrollY: 431
+[04:20:11.115] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:11.115] Browser LOG     [v0] Scroll event - currentScrollY: 476 lastScrollY: 453
+[04:20:11.115] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:20:11.398] Browser LOG     [v0] Scroll event - currentScrollY: 475 lastScrollY: 476
+[04:20:11.398] Browser LOG     [v0] Scroll event - currentScrollY: 471 lastScrollY: 475
+[04:20:11.398] Browser LOG     [v0] Scroll event - currentScrollY: 448 lastScrollY: 471
+[04:20:11.398] Browser LOG     [v0] Showing navbar - scrolling up
+[04:20:11.398] Browser LOG     [v0] Scroll event - currentScrollY: 350 lastScrollY: 448
+[04:20:11.398] Browser LOG     [v0] Showing navbar - scrolling up
+[04:20:11.398] Browser LOG     [v0] Scroll event - currentScrollY: 312 lastScrollY: 350
+[04:20:11.398] Browser LOG     [v0] Showing navbar - scrolling up
+[04:20:11.398] Browser LOG     [v0] Scroll event - currentScrollY: 221 lastScrollY: 312
+[04:20:11.398] Browser LOG     [v0] Showing navbar - scrolling up
+[04:20:11.864] Browser LOG     [v0] Scroll event - currentScrollY: 218 lastScrollY: 221
+[04:20:11.864] Browser LOG     [v0] Scroll event - currentScrollY: 198 lastScrollY: 218
+[04:20:11.864] Browser LOG     [v0] Showing navbar - scrolling up
+[04:20:11.864] Browser LOG     [v0] Scroll event - currentScrollY: 158 lastScrollY: 198
+[04:20:11.864] Browser LOG     [v0] Showing navbar - scrolling up
+[04:20:11.864] Browser LOG     [v0] Scroll event - currentScrollY: 127 lastScrollY: 158
+[04:20:11.864] Browser LOG     [v0] Showing navbar - scrolling up
+[04:20:11.864] Browser LOG     [v0] Scroll event - currentScrollY: 67 lastScrollY: 127
+[04:20:11.864] Browser LOG     [v0] Showing navbar - scrolling up
+[04:20:11.864] Browser LOG     [v0] Scroll event - currentScrollY: 44 lastScrollY: 67
+[04:20:11.864] Browser LOG     [v0] Showing navbar - near top
+[04:20:11.864] Browser LOG     [v0] Scroll event - currentScrollY: 0 lastScrollY: 44
+[04:20:11.864] Browser LOG     [v0] Showing navbar - near top
+[04:21:50.223] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/","id":"v3-1765453926231-8256366203287","route":"/","type":"FCP","value":328},{"href":"http://localhost:3000/","id":"v3-1765453926232-8300969380487","route":"/","type":"TTFB","value":208},{"attribution":{"eventTarget":"h1.text-3xl.sm:text-4xl.md:text-6xl.lg:text-7xl.font-bold.text-balance.mb-6.animate-fade-in-heading.text-white.md:leading-24"},"href":"http://localhost:3000/","id":"v3-1765453926231-9182407960638","route":"/","type":"LCP","value":2928},{"attribution":{"eventTarget":"#hero>div.max-w-6xl.mx-auto.text-center.relative.z-10.animate-fade-in-hero"},"href":"http://localhost:3000/","id":"v3-1765453926232-8605172694982","route":"/","type":"CLS","value":0.2748}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[04:26:43.261] Browser WARN    Image with src "/images/logo-webops.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:26:43.417] Browser LOG     [v0] NavigationTransition mounted for path: /
+[04:26:43.417] Browser LOG     [v0] Scroll listener added
+[04:26:43.417] Browser LOG     [v0] Page changed to: /
+[04:26:43.576] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:27:34.995] Browser WARN    Image with src "/images/logo-webops.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:27:34.995] Browser LOG     [v0] NavigationTransition mounted for path: /
+[04:27:34.995] Browser LOG     [v0] Scroll listener added
+[04:27:34.995] Browser LOG     [v0] Page changed to: /
+[04:27:34.995] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 1.5 lastScrollY: 0
+[04:27:38.474] Browser LOG     [v0] Showing navbar - near top
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 17.5 lastScrollY: 1.5
+[04:27:38.474] Browser LOG     [v0] Showing navbar - near top
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 29.5 lastScrollY: 17.5
+[04:27:38.474] Browser LOG     [v0] Showing navbar - near top
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 44 lastScrollY: 29.5
+[04:27:38.474] Browser LOG     [v0] Showing navbar - near top
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 64.5 lastScrollY: 44
+[04:27:38.474] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 75.5 lastScrollY: 64.5
+[04:27:38.474] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 137 lastScrollY: 75.5
+[04:27:38.474] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 154 lastScrollY: 137
+[04:27:38.474] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 168.5 lastScrollY: 154
+[04:27:38.474] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 185 lastScrollY: 168.5
+[04:27:38.474] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 192.5 lastScrollY: 185
+[04:27:38.474] Browser LOG     [v0] Hiding navbar - scrolling down
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 195 lastScrollY: 192.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 200 lastScrollY: 195
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 203 lastScrollY: 200
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 205.5 lastScrollY: 203
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 207 lastScrollY: 205.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 208.5 lastScrollY: 207
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 209 lastScrollY: 208.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 212 lastScrollY: 209
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 215 lastScrollY: 212
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 216.5 lastScrollY: 215
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 220 lastScrollY: 216.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 224.5 lastScrollY: 220
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 228.5 lastScrollY: 224.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 229.5 lastScrollY: 228.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 230 lastScrollY: 229.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 230.5 lastScrollY: 230
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 231 lastScrollY: 230.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 231.5 lastScrollY: 231
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 232.5 lastScrollY: 231.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 233.5 lastScrollY: 232.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 235 lastScrollY: 233.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 239 lastScrollY: 235
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 242.5 lastScrollY: 239
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 246.5 lastScrollY: 242.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 249 lastScrollY: 246.5
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 250.5 lastScrollY: 249
+[04:27:38.474] Browser LOG     [v0] Scroll event - currentScrollY: 251.5 lastScrollY: 250.5
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 251 lastScrollY: 251.5
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 248.5 lastScrollY: 251
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 236.5 lastScrollY: 248.5
+[04:27:39.021] Browser LOG     [v0] Showing navbar - scrolling up
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 218.5 lastScrollY: 236.5
+[04:27:39.021] Browser LOG     [v0] Showing navbar - scrolling up
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 194 lastScrollY: 218.5
+[04:27:39.021] Browser LOG     [v0] Showing navbar - scrolling up
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 171 lastScrollY: 194
+[04:27:39.021] Browser LOG     [v0] Showing navbar - scrolling up
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 143.5 lastScrollY: 171
+[04:27:39.021] Browser LOG     [v0] Showing navbar - scrolling up
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 115 lastScrollY: 143.5
+[04:27:39.021] Browser LOG     [v0] Showing navbar - scrolling up
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 76 lastScrollY: 115
+[04:27:39.021] Browser LOG     [v0] Showing navbar - scrolling up
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 31 lastScrollY: 76
+[04:27:39.021] Browser LOG     [v0] Showing navbar - near top
+[04:27:39.021] Browser LOG     [v0] Scroll event - currentScrollY: 0 lastScrollY: 31
+[04:27:39.021] Browser LOG     [v0] Showing navbar - near top
