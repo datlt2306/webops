@@ -6,7 +6,7 @@ export function HeroSection() {
     return (
         <section
             id="hero"
-            className="min-h-screen flex items-center justify-center px-4 py-20 relative"
+            className="min-h-screen md:flex md:items-center md:justify-center px-4 py-20 relative"
         >
             <div className="max-w-6xl mx-auto text-center relative z-10 animate-fade-in-hero">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/10 backdrop-blur-md border border-blue-400/30 text-blue-50 text-sm font-medium mb-8 mt-12 animate-fade-in-badge">
@@ -14,7 +14,7 @@ export function HeroSection() {
                     Agency thiết kế website · SEO
                 </div>
 
-                <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-balance mb-6 animate-fade-in-heading text-white leading-24">
+                <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-balance mb-6 animate-fade-in-heading text-white md:leading-24">
                     Website giúp doanh nghiệp của bạn{" "}
                     <span className="inline-flex items-center justify-center gap-2">
                         <span className="text-blue-200">tăng trưởng</span>
@@ -76,7 +76,24 @@ export function HeroSection() {
                                     Thương mại điện tử
                                 </div>
                                 <div className="text-base sm:text-lg font-semibold">
-                                    Hospitality
+                                    Du lịch - Giải trí
+                                </div>
+                                <div className="text-base sm:text-lg font-semibold">
+                                    Spa - Làm đẹp
+                                </div>
+                                <div className="text-base sm:text-lg font-semibold">
+                                    Tài chính - Ngân hàng
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-8 whitespace-nowrap text-blue-50/80">
+                                <div className="text-base sm:text-lg font-semibold">
+                                    Giáo dục - Đào tạo
+                                </div>
+                                <div className="text-base sm:text-lg font-semibold">
+                                    Bất động sản
+                                </div>
+                                <div className="text-base sm:text-lg font-semibold">
+                                    Thương mại điện tử
                                 </div>
                                 <div className="text-base sm:text-lg font-semibold">
                                     Du lịch - Giải trí
