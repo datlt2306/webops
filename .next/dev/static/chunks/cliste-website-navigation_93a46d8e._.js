@@ -22,20 +22,28 @@ var _s = __turbopack_context__.k.signature();
 ;
 const navigation = [
     {
-        name: "Dentists",
-        href: "#features"
+        name: "Về chúng tôi",
+        href: "#about"
     },
     {
-        name: "Barbers & Salons",
-        href: "#ai-team"
+        name: "Dự án",
+        href: "#projects"
     },
     {
-        name: "Restaurants",
-        href: "#testimonials"
+        name: "Dịch vụ",
+        href: "#services"
     },
     {
-        name: "Car Dealerships",
-        href: "/car-dealerships"
+        name: "Bảng giá",
+        href: "#pricing"
+    },
+    {
+        name: "Tin tức",
+        href: "#news"
+    },
+    {
+        name: "Liên hệ",
+        href: "#contact"
     }
 ];
 function GlassmorphismNav() {
@@ -153,17 +161,17 @@ function GlassmorphismNav() {
                                             className: "w-full h-full object-contain"
                                         }, void 0, false, {
                                             fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                            lineNumber: 123,
+                                            lineNumber: 125,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 124,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                    lineNumber: 118,
+                                    lineNumber: 120,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -174,7 +182,7 @@ function GlassmorphismNav() {
                                             children: item.name
                                         }, item.name, false, {
                                             fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                            lineNumber: 137,
+                                            lineNumber: 139,
                                             columnNumber: 21
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             onClick: ()=>scrollToSection(item.href),
@@ -182,12 +190,12 @@ function GlassmorphismNav() {
                                             children: item.name
                                         }, item.name, false, {
                                             fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                            lineNumber: 145,
+                                            lineNumber: 147,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 136,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -195,13 +203,14 @@ function GlassmorphismNav() {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         className: "relative bg-white hover:bg-gray-50 text-black font-medium px-6 py-2 rounded-full flex items-center transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group",
                                         onClick: ()=>scrollToSection("#contact"),
+                                        "aria-label": "Nhận tư vấn",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "mr-2",
-                                                children: "Get Started"
+                                                children: "Nhận tư vấn"
                                             }, void 0, false, {
                                                 fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                                lineNumber: 162,
+                                                lineNumber: 165,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$19$2e$2$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
@@ -209,18 +218,18 @@ function GlassmorphismNav() {
                                                 className: "transition-transform duration-300 group-hover:translate-x-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 166,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 160,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 159,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -234,7 +243,7 @@ function GlassmorphismNav() {
                                                 className: `absolute inset-0 transition-all duration-300 ${isOpen ? "opacity-0 rotate-180 scale-75" : "opacity-100 rotate-0 scale-100"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                                lineNumber: 173,
+                                                lineNumber: 176,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$19$2e$2$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
@@ -242,34 +251,34 @@ function GlassmorphismNav() {
                                                 className: `absolute inset-0 transition-all duration-300 ${isOpen ? "opacity-100 rotate-0 scale-100" : "opacity-0 -rotate-180 scale-75"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 182,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                        lineNumber: 172,
+                                        lineNumber: 175,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                    lineNumber: 168,
+                                    lineNumber: 171,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                            lineNumber: 116,
+                            lineNumber: 118,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                        lineNumber: 115,
+                        lineNumber: 117,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                    lineNumber: 114,
+                    lineNumber: 116,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -287,7 +296,7 @@ function GlassmorphismNav() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                            lineNumber: 193,
+                            lineNumber: 196,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -307,7 +316,7 @@ function GlassmorphismNav() {
                                                 children: item.name
                                             }, item.name, false, {
                                                 fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                                lineNumber: 211,
+                                                lineNumber: 214,
                                                 columnNumber: 21
                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 onClick: ()=>scrollToSection(item.href),
@@ -318,14 +327,14 @@ function GlassmorphismNav() {
                                                 children: item.name
                                             }, item.name, false, {
                                                 fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                                lineNumber: 225,
+                                                lineNumber: 228,
                                                 columnNumber: 21
                                             }, this)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "h-px bg-white/10 my-2"
                                         }, void 0, false, {
                                             fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                            lineNumber: 239,
+                                            lineNumber: 242,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -334,13 +343,14 @@ function GlassmorphismNav() {
                                                 animationDelay: isOpen ? `${navigation.length * 80 + 150}ms` : "0ms"
                                             },
                                             onClick: ()=>scrollToSection("#contact"),
+                                            "aria-label": "Nhận tư vấn",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "mr-2",
-                                                    children: "Get Started"
+                                                    children: "Nhận tư vấn"
                                                 }, void 0, false, {
                                                     fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                                    lineNumber: 249,
+                                                    lineNumber: 253,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$19$2e$2$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
@@ -348,41 +358,41 @@ function GlassmorphismNav() {
                                                     className: "transition-transform duration-300 group-hover:translate-x-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                                    lineNumber: 250,
+                                                    lineNumber: 254,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                            lineNumber: 240,
+                                            lineNumber: 243,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                    lineNumber: 208,
+                                    lineNumber: 211,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                                lineNumber: 207,
+                                lineNumber: 210,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                            lineNumber: 202,
+                            lineNumber: 205,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-                    lineNumber: 191,
+                    lineNumber: 194,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/cliste-website-navigation/components/glassmorphism-nav.tsx",
-            lineNumber: 105,
+            lineNumber: 107,
             columnNumber: 7
         }, this)
     }, void 0, false);

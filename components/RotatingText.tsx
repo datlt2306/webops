@@ -9,7 +9,28 @@ function cn(...classes) {
   return classes.filter(Boolean).join(" ")
 }
 
-const RotatingText = forwardRef((props, ref) => {
+type RotatingTextProps = {
+  texts: string[]
+  transition?: any
+  initial?: any
+  animate?: any
+  exit?: any
+  animatePresenceMode?: "wait" | "sync" | "popLayout"
+  animatePresenceInitial?: boolean
+  rotationInterval?: number
+  staggerDuration?: number
+  staggerFrom?: "first" | "last" | "center" | "random" | number | string
+  loop?: boolean
+  auto?: boolean
+  splitBy?: "characters" | "words" | "lines" | string
+  onNext?: (index: number) => void
+  mainClassName?: string
+  splitLevelClassName?: string
+  elementLevelClassName?: string
+  [key: string]: any
+}
+
+const RotatingText = forwardRef<any, RotatingTextProps>((props, ref) => {
   const {
     texts,
     transition = { type: "spring", damping: 25, stiffness: 300 },
