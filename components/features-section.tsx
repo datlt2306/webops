@@ -92,7 +92,7 @@ export function FeaturesSection() {
                     ))}
                 </div>
 
-                <div className="max-w-7xl mx-auto relative">
+                <div className="max-w-6xl mx-auto relative">
                     <div
                         className={`text-center mb-12 sm:mb-16 transition-all duration-1000 ${
                             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"

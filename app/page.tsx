@@ -10,6 +10,7 @@ import { CTASection } from "@/components/cta-section";
 import { Footer } from "@/components/footer";
 import { NewsSection } from "@/components/news-section";
 import ShowTeamSection from "@/components/show-team-section";
+import { FAQSection } from "@/components/faq-section";
 
 export default function HomePage() {
     return (
@@ -33,7 +34,9 @@ export default function HomePage() {
                     <ShowTeamSection />
                     <NewsSection />
                     <TestimonialsSection />
+
                     <ROICalculatorSection />
+                    <FAQSection />
                     <CTASection />
                     <Footer />
                 </div>

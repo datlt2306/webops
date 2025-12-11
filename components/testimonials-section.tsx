@@ -83,7 +83,7 @@ export function TestimonialsSection() {
                 />
             </div>
 
-            <div className="relative max-w-7xl mx-auto">
+            <div className="relative max-w-6xl mx-auto">
                 {/* Header Section - Keep as user loves it */}
                 <div className="text-center mb-16 md:mb-32">
                     <div className="fade-in-element opacity-0 translate-y-8 transition-all duration-1000 ease-out inline-flex items-center gap-2 text-white/60 text-sm font-medium tracking-wider uppercase mb-6">
