@@ -92,7 +92,7 @@ export function TestimonialsSection() {
                         <div className="w-8 h-px bg-white/30"></div>
                     </div>
                     <h2 className="fade-in-element opacity-0 translate-y-8 transition-all duration-1000 ease-out text-5xl md:text-6xl lg:text-7xl font-light text-white mb-8 tracking-tight text-balance">
-                        Kết quả
+                        Phản hồi
                         <span className="font-medium italic"> từ những dự án gần đây</span>
                     </h2>
                     <p className="fade-in-element opacity-0 translate-y-8 transition-all duration-1000 ease-out text-xl text-white/70 max-w-2xl mx-auto leading-relaxed">
