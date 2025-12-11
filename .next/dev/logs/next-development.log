@@ -9197,3 +9197,7 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [02:25:16.904] Browser LOG     [v0] NavigationTransition mounted for path: /
 [02:25:16.904] Browser LOG     [v0] Scroll listener added
 [02:25:16.905] Browser LOG     [v0] Page changed to: /
+[02:28:25.331] Server  LOG      ✓ Compiled in 106ms
+[02:28:36.514] Server  LOG      ✓ Compiled in 67ms
+[02:28:45.250] Server  LOG      ✓ Compiled in 43ms
+[02:28:47.749] Server  LOG      ✓ Compiled in 40ms

@@ -2387,29 +2387,29 @@ function ROICalculatorSection() {
                         }, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
                             lineNumber: 78,
-                            columnNumber: 11
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6 text-balance",
-                            children: "Linh hoạt theo mục tiêu tăng trưởng"
+                            children: "Tùy chỉnh theo mục tiêu của bạn"
                         }, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
                             lineNumber: 81,
-                            columnNumber: 11
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg md:text-xl text-blue-100 max-w-2xl mx-auto text-balance",
-                            children: "Chọn gói phù hợp hoặc đặt lịch tư vấn để chúng tôi thiết kế giải pháp riêng cho bạn."
+                            children: "Chúng tôi đề xuất gói phù hợp hoặc thiết kế giải pháp riêng theo yêu cầu của bạn."
                         }, void 0, false, {
                             fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
                             lineNumber: 84,
-                            columnNumber: 11
+                            columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
                     lineNumber: 73,
-                    columnNumber: 9
+                    columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: `grid md:grid-cols-3 gap-6 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
@@ -2427,22 +2427,22 @@ function ROICalculatorSection() {
                                             children: plan.name
                                         }, void 0, false, {
                                             fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                            lineNumber: 107,
-                                            columnNumber: 17
+                                            lineNumber: 108,
+                                            columnNumber: 33
                                         }, this),
                                         plan.highlighted && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-xs font-semibold px-3 py-1 rounded-full bg-white/15 text-white",
                                             children: "Phổ biến"
                                         }, void 0, false, {
                                             fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                            lineNumber: 109,
-                                            columnNumber: 19
+                                            lineNumber: 112,
+                                            columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                    lineNumber: 106,
-                                    columnNumber: 15
+                                    lineNumber: 107,
+                                    columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "text-3xl md:text-4xl font-bold text-white",
@@ -2454,14 +2454,14 @@ function ROICalculatorSection() {
                                             children: plan.note
                                         }, void 0, false, {
                                             fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                            lineNumber: 113,
-                                            columnNumber: 30
+                                            lineNumber: 119,
+                                            columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                    lineNumber: 112,
-                                    columnNumber: 15
+                                    lineNumber: 117,
+                                    columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "mt-6 space-y-3 text-sm text-blue-50/90",
@@ -2472,26 +2472,26 @@ function ROICalculatorSection() {
                                                     className: "w-4 h-4 text-blue-200 mt-0.5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                                    lineNumber: 118,
-                                                    columnNumber: 21
+                                                    lineNumber: 126,
+                                                    columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: feature
                                                 }, void 0, false, {
                                                     fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                                    lineNumber: 119,
-                                                    columnNumber: 21
+                                                    lineNumber: 127,
+                                                    columnNumber: 41
                                                 }, this)
                                             ]
                                         }, feature, true, {
                                             fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                            lineNumber: 117,
-                                            columnNumber: 19
+                                            lineNumber: 125,
+                                            columnNumber: 37
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                    lineNumber: 115,
-                                    columnNumber: 15
+                                    lineNumber: 123,
+                                    columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "mt-auto pt-6",
@@ -2501,24 +2501,24 @@ function ROICalculatorSection() {
                                         children: "Đặt lịch tư vấn"
                                     }, void 0, false, {
                                         fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                        lineNumber: 124,
-                                        columnNumber: 17
+                                        lineNumber: 132,
+                                        columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                                    lineNumber: 123,
-                                    columnNumber: 15
+                                    lineNumber: 131,
+                                    columnNumber: 29
                                 }, this)
                             ]
                         }, plan.name, true, {
                             fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                            lineNumber: 95,
-                            columnNumber: 13
+                            lineNumber: 96,
+                            columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                    lineNumber: 89,
-                    columnNumber: 9
+                    lineNumber: 90,
+                    columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cliste$2d$website$2d$navigation$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$8_react$2d$dom$40$19$2e$2$2e$1_react$40$19$2e$2$2e$1_$5f$react$40$19$2e$2$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: `text-center mt-12 md:mt-14 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
@@ -2527,24 +2527,24 @@ function ROICalculatorSection() {
                         children: "Giá đã bao gồm thiết kế, phát triển, tối ưu cơ bản và hướng dẫn quản trị. Phạm vi mở rộng sẽ được báo giá rõ ràng sau buổi tư vấn."
                     }, void 0, false, {
                         fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                        lineNumber: 140,
-                        columnNumber: 11
+                        lineNumber: 152,
+                        columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
-                    lineNumber: 135,
-                    columnNumber: 9
+                    lineNumber: 147,
+                    columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
             lineNumber: 72,
-            columnNumber: 7
+            columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/cliste-website-navigation/components/roi-calculator-section.tsx",
         lineNumber: 71,
-        columnNumber: 5
+        columnNumber: 9
     }, this);
 }
 _s(ROICalculatorSection, "J3yJOyGdBT4L7hs1p1XQYVGMdrY=");
