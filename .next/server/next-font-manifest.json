@@ -1,1 +1,19 @@
-{"pages":{},"app":{"/Users/ken/Folders/Projects/webopsagency/cliste-website-navigation/app/layout":["static/media/46bdd75a3ff56824-s.p.woff2","static/media/0e9d289c6eb42bf7-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/cliste-website-navigation/app/_not-found/page": [
+      "static/media/406d3fc8d5ec9f59-s.p.3f4cab70.woff2",
+      "static/media/a85fe84266768609-s.p.e658778d.woff2"
+    ],
+    "[project]/cliste-website-navigation/app/car-dealerships/page": [
+      "static/media/406d3fc8d5ec9f59-s.p.3f4cab70.woff2",
+      "static/media/a85fe84266768609-s.p.e658778d.woff2"
+    ],
+    "[project]/cliste-website-navigation/app/page": [
+      "static/media/406d3fc8d5ec9f59-s.p.3f4cab70.woff2",
+      "static/media/a85fe84266768609-s.p.e658778d.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
