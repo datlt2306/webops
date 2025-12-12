@@ -69,7 +69,7 @@ export function ProblemSolutionSection() {
                         Về chúng tôi
                     </div>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-balance mb-4 sm:mb-6">
-                        Web agency tập trung vào hiệu quả & tăng trưởng số
+                        Webops Agency tập trung vào hiệu quả & tăng trưởng số
                     </h2>
                     <p className="text-base sm:text-lg md:text-xl text-blue-100 max-w-3xl mx-auto font-light leading-relaxed">
                         Chúng tôi thiết kế trải nghiệm, tối ưu SEO và tự động hóa hành trình khách
