@@ -84,8 +84,8 @@ export function FeaturesSection() {
                         inset: 0;
                         padding: 6px;
                         background: radial-gradient(var(--glow-radius, 300px) circle at var(--glow-x, 50%) var(--glow-y, 50%),
-                            rgba(132, 0, 255, calc(var(--glow-intensity, 0) * 0.8)) 0%,
-                            rgba(132, 0, 255, calc(var(--glow-intensity, 0) * 0.4)) 30%,
+                            rgba(96, 165, 250, calc(var(--glow-intensity, 0) * 0.8)) 0%,
+                            rgba(96, 165, 250, calc(var(--glow-intensity, 0) * 0.4)) 30%,
                             transparent 60%);
                         border-radius: inherit;
                         -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -149,7 +149,7 @@ export function FeaturesSection() {
                             disableAnimations={isMobile}
                             enabled={!isMobile}
                             spotlightRadius={300}
-                            glowColor="132, 0, 255"
+                            glowColor="96, 165, 250"
                         />
                         <div
                             className={`grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 ${
@@ -169,7 +169,7 @@ export function FeaturesSection() {
                                         } as React.CSSProperties
                                     }
                                     particleCount={isMobile ? 0 : 8}
-                                    glowColor="132, 0, 255"
+                                    glowColor="96, 165, 250"
                                     enableTilt={!isMobile}
                                     clickEffect={!isMobile}
                                     enableMagnetism={!isMobile}
