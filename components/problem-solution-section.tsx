@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ShieldCheck, Sparkles } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import CountUp from "./CountUp";
 
 export function ProblemSolutionSection() {
     const sectionRef = useRef<HTMLElement>(null);
@@ -51,9 +52,22 @@ export function ProblemSolutionSection() {
     ];
 
     const stats = [
-        { label: "Dự án triển khai thực tế", value: "120+" },
+        {
+            label: "Dự án triển khai thực tế",
+            value: "120+",
+            useCountUp: true,
+            countUpValue: 120,
+            suffix: "+",
+        },
         { label: "Thời gian bàn giao trung bình", value: "4-6 tuần" },
-        { label: "Tăng trưởng chuyển đổi sau tối ưu", value: "+35%" },
+        {
+            label: "Tăng trưởng chuyển đổi sau tối ưu",
+            value: "+35%",
+            useCountUp: true,
+            countUpValue: 35,
+            prefix: "+",
+            suffix: "%",
+        },
     ];
 
     return (
@@ -111,7 +125,22 @@ export function ProblemSolutionSection() {
                             className="text-center bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-5 sm:p-6 hover:bg-white/10 transition-all duration-300"
                         >
                             <div className="text-2xl sm:text-3xl font-bold text-white mb-2">
-                                {stat.value}
+                                {stat.useCountUp ? (
+                                    <>
+                                        {stat.prefix && <span>{stat.prefix}</span>}
+                                        <CountUp
+                                            from={0}
+                                            to={stat.countUpValue}
+                                            separator=","
+                                            direction="up"
+                                            duration={1}
+                                            className="count-up-text"
+                                        />
+                                        {stat.suffix && <span>{stat.suffix}</span>}
+                                    </>
+                                ) : (
+                                    stat.value
+                                )}
                             </div>
                             <p className="text-blue-100/80 text-sm sm:text-base">{stat.label}</p>
                         </div>
