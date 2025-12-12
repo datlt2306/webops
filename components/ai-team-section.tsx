@@ -12,6 +12,10 @@ import {
     ShoppingBag,
     Sparkles,
 } from "lucide-react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 export function AITeamSection() {
     const sectionRef = useRef<HTMLElement>(null);
@@ -38,6 +42,36 @@ export function AITeamSection() {
             if (sectionRef.current) {
                 observer.unobserve(sectionRef.current);
             }
+        };
+    }, []);
+
+    useEffect(() => {
+        const style = document.createElement("style");
+        style.textContent = `
+            .projects-swiper .swiper-pagination {
+                position: relative;
+                margin-top: 2rem;
+            }
+            .projects-swiper .swiper-pagination-bullet {
+                width: 10px;
+                height: 10px;
+                background: rgba(255, 255, 255, 0.3);
+                opacity: 1;
+                transition: all 0.3s ease;
+            }
+            .projects-swiper .swiper-pagination-bullet-active {
+                background: rgba(59, 130, 246, 0.8);
+                width: 24px;
+                border-radius: 5px;
+            }
+            .projects-swiper .swiper-pagination-bullet:hover {
+                background: rgba(255, 255, 255, 0.5);
+            }
+        `;
+        document.head.appendChild(style);
+
+        return () => {
+            document.head.removeChild(style);
         };
     }, []);
 
@@ -251,10 +285,10 @@ export function AITeamSection() {
 
                     <div className="mb-8">
                         <div className="relative sm:hidden">
-                            <div className="pointer-events-none absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-[#0B1221] to-transparent" />
-                            <div className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-[#0B1221] to-transparent" />
+                            <div className="pointer-events-none absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-[#0B1221] to-transparent z-10" />
+                            <div className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-[#0B1221] to-transparent z-10" />
                             <div
-                                className="flex gap-3 overflow-x-auto snap-x snap-mandatory px-1 pb-3"
+                                className="flex gap-3 overflow-x-auto snap-x snap-mandatory px-1 pb-3 relative z-20"
                                 style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                                 aria-label="Chọn ngành dự án"
                                 role="tablist"
@@ -266,11 +300,16 @@ export function AITeamSection() {
                                         <button
                                             key={cat.key}
                                             onClick={() => handleSelectCategory(cat.key)}
-                                            className={`flex shrink-0 snap-start items-center gap-3 rounded-2xl border px-4 py-3 text-left transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 ${
+                                            onTouchStart={(e) => {
+                                                e.stopPropagation();
+                                                handleSelectCategory(cat.key);
+                                            }}
+                                            className={`flex shrink-0 snap-start items-center gap-3 rounded-2xl border px-4 py-3 text-left transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 touch-manipulation ${
                                                 isActive
                                                     ? "border-blue-300/60 bg-blue-500/15 text-white shadow-[0_10px_35px_rgba(59,130,246,0.35)]"
                                                     : "border-white/10 bg-white/5 text-blue-100/90 hover:border-blue-200/40"
                                             }`}
+                                            style={{ touchAction: "manipulation" }}
                                             tabIndex={0}
                                             aria-label={`Chọn ngành ${cat.label}`}
                                             aria-selected={isActive}
@@ -300,11 +339,16 @@ export function AITeamSection() {
                                     <button
                                         key={cat.key}
                                         onClick={() => handleSelectCategory(cat.key)}
-                                        className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full transition-all ${
+                                        onTouchStart={(e) => {
+                                            e.stopPropagation();
+                                            handleSelectCategory(cat.key);
+                                        }}
+                                        className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full transition-all touch-manipulation ${
                                             activeCategory === cat.key
                                                 ? "bg-blue-500/20 text-white border border-white/30 shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
                                                 : "text-blue-100/80 hover:text-white"
                                         }`}
+                                        style={{ touchAction: "manipulation" }}
                                         aria-label={`Chọn ngành ${cat.label}`}
                                         tabIndex={0}
                                         role="tab"
@@ -318,41 +362,70 @@ export function AITeamSection() {
                     </div>
 
                     <div
-                        className={`grid gap-6 md:grid-cols-3 xl:grid-cols-4 transition-all duration-1000 ${
+                        className={`transition-all duration-1000 ${
                             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                         }`}
                     >
-                        {filteredProjects.map((project, index) => (
-                            <div
-                                key={project.title}
-                                className="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md hover:border-blue-200/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.35)] p-0 flex flex-col"
-                                style={{
-                                    transitionDelay: isVisible ? `${150 + index * 100}ms` : "0ms",
-                                }}
-                            >
-                                <div className="relative w-full h-56 rounded-t-2xl overflow-hidden bg-slate-900/40">
-                                    <Image
-                                        src={project.image}
-                                        alt={project.title}
-                                        fill
-                                        className="object-cover transition-transform duration-800 ease-out origin-top group-hover:-translate-y-8 group-hover:scale-105"
-                                        sizes="(max-width: 768px) 100vw, 33vw"
-                                    />
-                                </div>
-                                <div className="p-6 flex flex-col flex-1">
-                                    <div className="flex items-center gap-3 mb-4">
-                                        <div>
-                                            <p className="text-xs text-blue-100 font-semibold uppercase tracking-wide">
-                                                {project.tag}
-                                            </p>
-                                            <h3 className="text-lg font-semibold text-white">
-                                                {project.title}
-                                            </h3>
+                        <Swiper
+                            slidesPerView={1}
+                            spaceBetween={24}
+                            grabCursor={true}
+                            pagination={{
+                                clickable: true,
+                                dynamicBullets: true,
+                            }}
+                            breakpoints={{
+                                640: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 24,
+                                },
+                                768: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 24,
+                                },
+                                1024: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 24,
+                                },
+                            }}
+                            modules={[Pagination]}
+                            className="projects-swiper"
+                        >
+                            {filteredProjects.map((project, index) => (
+                                <SwiperSlide key={project.title}>
+                                    <div
+                                        className="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md hover:border-blue-200/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.35)] p-0 flex flex-col h-full"
+                                        style={{
+                                            transitionDelay: isVisible
+                                                ? `${150 + index * 100}ms`
+                                                : "0ms",
+                                        }}
+                                    >
+                                        <div className="relative w-full h-56 rounded-t-2xl overflow-hidden bg-slate-900/40">
+                                            <Image
+                                                src={project.image}
+                                                alt={project.title}
+                                                fill
+                                                className="object-cover transition-transform duration-800 ease-out origin-top group-hover:-translate-y-8 group-hover:scale-105"
+                                                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                                            />
+                                        </div>
+                                        <div className="p-6 flex flex-col flex-1">
+                                            <div className="flex items-center gap-3 mb-4">
+                                                <div>
+                                                    <p className="text-xs text-blue-100 font-semibold uppercase tracking-wide">
+                                                        {project.tag}
+                                                    </p>
+                                                    <h3 className="text-lg font-semibold text-white">
+                                                        {project.title}
+                                                    </h3>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        ))}
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
                     </div>
                 </div>
             </div>

@@ -6,8 +6,9 @@
   "static/chunks/80710_motion-dom_dist_es_00d8671c._.js",
   "static/chunks/2dbcf_framer-motion_dist_es_9260be11._.js",
   "static/chunks/6096e_ogl_src_bf83b6a9._.js",
+  "static/chunks/2af3a_swiper_7481493e._.js",
   "static/chunks/a7e82__pnpm_979e19cb._.js",
-  "static/chunks/cliste-website-navigation_components_4d865513._.css"
+  "static/chunks/cliste-website-navigation_d8c01b1a._.css"
 ],
     source: "dynamic"
 });

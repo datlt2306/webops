@@ -1734,6 +1734,10 @@
     cursor: pointer;
   }
 
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
+
   .touch-none {
     touch-action: none;
   }
