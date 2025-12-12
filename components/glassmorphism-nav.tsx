@@ -210,7 +210,7 @@ export function GlassmorphismNav() {
                     </div>
                 </div>
 
-                <div className="md:hidden relative">
+                <div className={`md:hidden relative ${isOpen ? "h-auto" : "h-0"}`}>
                     {/* Backdrop overlay */}
                     <div
                         className={`fixed inset-0 transition-all duration-300 ${

@@ -285,10 +285,10 @@ export function AITeamSection() {
 
                     <div className="mb-8">
                         <div className="relative sm:hidden">
-                            <div className="pointer-events-none absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-[#0B1221] to-transparent z-10" />
-                            <div className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-[#0B1221] to-transparent z-10" />
+                            {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-[#0B1221] to-transparent z-10" /> */}
+                            {/* <div className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-[#0B1221] to-transparent z-10" /> */}
                             <div
-                                className="flex gap-3 overflow-x-auto snap-x snap-mandatory px-1 pb-3 relative z-20"
+                                className="flex gap-3 overflow-x-auto snap-x snap-mandatory px-1 py-8 relative z-20"
                                 style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                                 aria-label="Chọn ngành dự án"
                                 role="tablist"
@@ -345,7 +345,7 @@ export function AITeamSection() {
                                         }}
                                         className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full transition-all touch-manipulation ${
                                             activeCategory === cat.key
-                                                ? "bg-blue-500/20 text-white border border-white/30 shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
+                                                ? "bg-blue-500/20 text-white border border-white/30 shadow-[0_4px_12px_rgba(0,0,0,0.18)]"
                                                 : "text-blue-100/80 hover:text-white"
                                         }`}
                                         style={{ touchAction: "manipulation" }}

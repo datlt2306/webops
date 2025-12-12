@@ -6,7 +6,7 @@ export function HeroSection() {
     return (
         <section
             id="hero"
-            className="min-h-screen flex items-center justify-center px-4 py-20 relative"
+            className="min-h-screen flex items-center justify-center px-4 py-20 relative z-6"
         >
             <div className="max-w-6xl mx-auto text-center relative z-10 animate-fade-in-hero w-full">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/10 backdrop-blur-md border border-blue-400/30 text-blue-50 text-sm font-medium mb-8 mt-12 animate-fade-in-badge">
