@@ -1,3 +1,0 @@
-module.exports=[19424,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(27153);a.n(d("[project]/cliste-website-navigation/node_modules/.pnpm/next@16.0.8_react-dom@19.2.1_react@19.2.1__react@19.2.1/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},81312,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(27153);a.n(d("[project]/cliste-website-navigation/node_modules/.pnpm/next@16.0.8_react-dom@19.2.1_react@19.2.1__react@19.2.1/node_modules/next/dist/client/components/builtin/global-error.js"))},83816,a=>{"use strict";a.i(19424);var b=a.i(81312);a.n(b)}];
-
-//# sourceMappingURL=e4566_next_dist_client_components_builtin_global-error_cd926124.js.map

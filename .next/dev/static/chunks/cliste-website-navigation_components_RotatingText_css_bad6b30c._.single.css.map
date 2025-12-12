@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/cliste-website-navigation/components/RotatingText.css"],"sourcesContent":[".text-rotate {\n  display: flex;\n  flex-wrap: wrap;\n  white-space: pre-wrap;\n  position: relative;\n}\n\n.text-rotate-sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border: 0;\n}\n\n.text-rotate-word {\n  display: inline-flex;\n}\n\n.text-rotate-lines {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n}\n\n.text-rotate-element {\n  display: inline-block;\n}\n\n.text-rotate-space {\n  white-space: pre;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;;;;;;;AAYA;;;;AAIA;;;;;;AAMA;;;;AAIA"}}]
-}

@@ -11,6 +11,7 @@ import { Footer } from "@/components/footer";
 import { NewsSection } from "@/components/news-section";
 import ShowTeamSection from "@/components/show-team-section";
 import { FAQSection } from "@/components/faq-section";
+import ScrollToTopButton from "@/components/scroll-to-top";
 
 export default function HomePage() {
     return (
@@ -39,6 +40,7 @@ export default function HomePage() {
                     <FAQSection />
                     <CTASection />
                     <Footer />
+                    <ScrollToTopButton />
                 </div>
             </main>
         </div>
