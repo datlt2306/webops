@@ -112,15 +112,16 @@ export function GlassmorphismNav() {
                                 href="/"
                                 className="flex items-center hover:scale-105 transition-transform duration-200 cursor-pointer"
                             >
-                                <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">
-                                    <Image
-                                        src="/images/logo-webops.svg"
-                                        alt="Webops Agency"
-                                        width={40}
-                                        height={40}
-                                        className="w-full h-full object-contain"
-                                    />
-                                </div>
+                                <Image
+                                    src="/images/logo-webops.svg"
+                                    alt="Webops Agency"
+                                    width={48}
+                                    height={48}
+                                    priority
+                                    sizes="48px"
+                                    className="w-10 h-10 md:w-12 md:h-12 object-contain select-none"
+                                    draggable={false}
+                                />
                             </Link>
 
                             {/* Desktop Navigation */}
